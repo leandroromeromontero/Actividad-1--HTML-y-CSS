@@ -1,0 +1,77 @@
+body {
+  background-color: #bedbbb;
+}
+
+h1 {
+  color: #707070;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+h3 {
+  color: #707070;
+  font-family: cursive;
+}
+
+a {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+hr{
+  border-style: dotted dotted none none;
+  border-width: 5px;
+  background-color: #bedbbb;
+  border-color: white;
+}
+.Intro {
+  text-align: justify;
+  color: #707070;
+}
+
+.Origenes {
+  text-align: justify;
+  color: #707070;
+}
+
+.info_general {
+  text-align: justify;
+  color: #707070;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none inside;
+  font-family: sans-serif;
+}
+
+ul.slider {
+  position: relative;
+}
+
+ul.slider li {
+  opacity: 0;
+  transition: opacity .5s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 50px;
+  padding: 50px;
+  border: 2px groove #8db596;
+  background: #bedbbb;
+}
+
+ul.slider li:first-child {
+  opacity: 1;
+}
+
+ul.slider li:target {
+  opacity: 1;
+}
+
+nav {
+  position: relative;
+  top: 250px;
+  left: 450px;
+}
